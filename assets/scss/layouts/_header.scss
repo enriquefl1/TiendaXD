@@ -1,0 +1,14 @@
+.header {
+
+    background-image: url(./../img/imagen1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -80px;
+
+    @media screen and (min-width: $min-large ) {
+        float:right;
+        width: 700px;
+        height: 436px;
+    }
+
+}

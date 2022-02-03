@@ -1,0 +1,25 @@
+.footer {
+    background-color: $smokyblack;
+    color: $white;
+    display:flex;
+}
+
+.footer-news{
+    width: 82%;
+    padding : 10px 25px
+}
+
+.footer-suscribir {
+    background-color: $white;
+    color: $smokyblack;
+    writing-mode: vertical-lr;
+    text-align: center;
+}
+
+.footer-titulo {
+    font-size: $x-large;
+}
+
+.footer-descripcion {
+    font-size: $medium;
+}

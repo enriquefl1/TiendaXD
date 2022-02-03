@@ -1,0 +1,42 @@
+// small view por defecto
+@media screen and (max-width: $min-small) {
+    .contenedor {
+        width: 540px;
+    }
+
+    .height-header { 
+        height: 190px;
+    }
+}
+
+// small view
+@media screen and (min-width: $min-small) {
+    .contenedor {
+        width: 540px;
+    }
+
+    .height-header { 
+        height: 190px;
+    }
+}
+
+@media screen and (min-width: $min-medium) {
+    .contenedor {
+        width: 720px;
+    }
+
+    .height-header { 
+        height: 250px;
+    }
+}
+
+@media screen and (min-width: $min-large ) {
+    .contenedor {
+        width: 1140px;
+    }
+
+    .height-header { 
+        height: 400px;
+    }
+}
+

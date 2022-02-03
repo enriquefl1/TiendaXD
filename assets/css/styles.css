@@ -1,0 +1,182 @@
+body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  font-family: "Old Standard TT", serif;
+}
+
+@media screen and (max-width: 576px) {
+  .contenedor {
+    width: 540px;
+  }
+
+  .height-header {
+    height: 190px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .contenedor {
+    width: 540px;
+  }
+
+  .height-header {
+    height: 190px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .contenedor {
+    width: 720px;
+  }
+
+  .height-header {
+    height: 250px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contenedor {
+    width: 1140px;
+  }
+
+  .height-header {
+    height: 400px;
+  }
+}
+.header {
+  background-image: url(./../img/imagen1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -80px;
+}
+@media screen and (min-width: 1200px) {
+  .header {
+    float: right;
+    width: 700px;
+    height: 436px;
+  }
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.nav-izq {
+  height: 100%;
+  width: 100px;
+  background-color: #0C0910;
+  text-align: center;
+  line-height: 100px;
+}
+
+.nav-logo {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.nav-der {
+  background-color: #FFF;
+  width: calc(100% - 100px);
+  text-align: right;
+}
+
+input {
+  display: none;
+}
+
+label {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .menu-lista {
+    display: none;
+  }
+
+  input:checked ~ .menu-lista {
+    display: block;
+    position: absolute;
+    width: 75%;
+  }
+
+  label {
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+  }
+
+  .menu-item {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+    text-decoration: none;
+  }
+}
+.section {
+  text-align: center;
+}
+
+.section-titulo {
+  font-size: 30px;
+  font-family: "Old Standard TT", serif;
+  text-transform: uppercase;
+  padding: 3% 5%;
+  text-align: left;
+}
+
+.section-article {
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  text-align: left;
+  padding: 0 5% 3% 5%;
+}
+
+.section-button {
+  text-align: left;
+  padding: 0 5% 3% 5%;
+}
+
+.btn {
+  background-color: #FFF;
+}
+
+.footer {
+  background-color: #0C0910;
+  color: #FFF;
+  display: flex;
+}
+
+.footer-news {
+  width: 82%;
+  padding: 10px 25px;
+}
+
+.footer-suscribir {
+  background-color: #FFF;
+  color: #0C0910;
+  writing-mode: vertical-lr;
+  text-align: center;
+}
+
+.footer-titulo {
+  font-size: 20px;
+}
+
+.footer-descripcion {
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=styles.css.map */

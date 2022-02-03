@@ -1,0 +1,28 @@
+.section{
+    text-align: center;
+}
+
+.section-titulo {
+    font-size: $xx-large;
+    font-family:$oldstandardtt ;
+    text-transform: uppercase;
+    padding: 3% 5%;
+    text-align: left;
+    
+}
+
+.section-article {
+    font-size: $medium;
+    font-family:$raleway;
+    text-align: left;
+    padding:0 5% 3% 5%;
+}
+
+.section-button {
+    text-align: left;
+    padding: 0 5% 3% 5%;
+}
+
+.btn {
+    background-color: $white;
+}

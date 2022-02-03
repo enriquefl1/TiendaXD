@@ -1,0 +1,71 @@
+.nav { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.nav-izq {
+    height: 100%;
+    width: 100px;
+    background-color: $smokyblack;
+    text-align: center;
+    line-height: 100px;
+}
+
+.nav-logo {  
+    color: $white;
+    text-decoration: none;
+    font-size: $xx-large;
+}
+
+.nav-der {
+    background-color: $white;
+    width:calc(100% - 100px);
+    text-align: right;
+}
+
+// --------------------------------------------------------//
+// Código para Menu Hamburgesa
+// --------------------------------------------------------//
+
+input {
+    display: none;
+}
+
+label {
+    display: none;
+}
+
+@media screen and (max-width: $min-medium) {
+    .menu-lista {
+        display: none;
+    }
+ 
+    input:checked ~ .menu-lista {
+        display:block;
+        position:absolute;
+        width: 75%;        
+    }
+
+    label {
+        box-sizing: border-box;
+        display: inline-block;
+        border: 1px solid black;
+        border-radius: 5px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-weight: bold;
+        text-align: center;
+        user-select: none;
+    }
+
+    .menu-item {
+        display: block;
+        list-style: none;
+        margin: 0;
+        padding: 0px;
+        text-decoration: none;
+    }
+}
