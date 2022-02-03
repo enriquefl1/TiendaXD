@@ -37,6 +37,12 @@ label {
     display: none;
 }
 
+.menu-item {
+    text-decoration: none;
+    color: $smokyblack;
+    font-weight: $bold;
+}
+
 @media screen and (max-width: $min-medium) {
     .menu-lista {
         display: none;
@@ -45,7 +51,7 @@ label {
     input:checked ~ .menu-lista {
         display:block;
         position:absolute;
-        width: 75%;        
+        width: 440px;        
     }
 
     label {
@@ -67,5 +73,6 @@ label {
         margin: 0;
         padding: 0px;
         text-decoration: none;
+        color: $smokyblack;
     }
 }

@@ -93,6 +93,12 @@ label {
   display: none;
 }
 
+.menu-item {
+  text-decoration: none;
+  color: #0C0910;
+  font-weight: 700;
+}
+
 @media screen and (max-width: 768px) {
   .menu-lista {
     display: none;
@@ -101,7 +107,7 @@ label {
   input:checked ~ .menu-lista {
     display: block;
     position: absolute;
-    width: 75%;
+    width: 440px;
   }
 
   label {
@@ -123,6 +129,7 @@ label {
     margin: 0;
     padding: 0px;
     text-decoration: none;
+    color: #0C0910;
   }
 }
 .section {
@@ -160,8 +167,27 @@ label {
 }
 
 .footer-news {
-  width: 82%;
   padding: 10px 25px;
+}
+@media screen and (max-width: 576px) {
+  .footer-news {
+    width: 540px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .footer-news {
+    width: 540px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer-news {
+    width: 720px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer-news {
+    width: 1140px;
+  }
 }
 
 .footer-suscribir {
