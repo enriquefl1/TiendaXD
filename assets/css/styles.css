@@ -53,7 +53,7 @@ body {
 @media screen and (min-width: 1200px) {
   .header {
     float: right;
-    width: 700px;
+    width: 500px;
     height: 436px;
   }
 }
@@ -165,6 +165,26 @@ label {
   color: #FFF;
   display: flex;
 }
+@media screen and (max-width: 576px) {
+  .footer {
+    width: 540px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .footer {
+    width: 540px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer {
+    width: 720px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer {
+    width: 500px;
+  }
+}
 
 .footer-news {
   padding: 10px 25px;
@@ -186,7 +206,7 @@ label {
 }
 @media screen and (min-width: 1200px) {
   .footer-news {
-    width: 1140px;
+    width: 500px;
   }
 }
 

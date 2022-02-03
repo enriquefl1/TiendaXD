@@ -2,6 +2,18 @@
     background-color: $smokyblack;
     color: $white;
     display:flex;
+    @media screen and (max-width: $min-small){ 
+        width: 540px;
+    }
+    @media screen and (min-width: $min-small){ 
+        width: 540px;
+    }
+    @media screen and (min-width: $min-medium){ 
+        width: 720px;
+    }
+    @media screen and (min-width: $min-large){ 
+        width: 500px;
+    }
 }
 
 .footer-news{
@@ -16,7 +28,7 @@
         width: 720px;
     }
     @media screen and (min-width: $min-large){ 
-        width: 1140px;
+        width: 500px;
     }
 }
 
